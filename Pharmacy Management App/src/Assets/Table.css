@@ -1,0 +1,25 @@
+.tablediv{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #b6f3de;
+    height: 100vh;
+    width: 100vw;
+}
+.content{
+    font-size:x-large;
+   border: 1px solid black;
+   height: 70vh;
+   width: 70vw;
+   text-align: center;
+   background-color: whitesmoke;
+   box-shadow:
+  2.8px 2.8px 2.2px rgba(0, 0, 0, -0.009),
+  6.7px 6.7px 5.3px rgba(0, 0, 0, -0.008),
+  12.5px 12.5px 10px rgba(0, 0, 0, 0),
+  22.3px 22.3px 17.9px rgba(0, 0, 0, 0.016),
+  41.8px 41.8px 33.4px rgba(0, 0, 0, 0.039),
+  100px 100px 80px rgba(0, 0, 0, 0.07)
+;
+}

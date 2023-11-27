@@ -1,0 +1,141 @@
+.maindiv{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    background-image: linear-gradient(to right,#aaebd4,#ccf3f1);
+    background-image: url("C:\Users\HP\Desktop\React Project\rp1\src\img\PROJECT BAG.jpg");
+    background-color: transparent;
+    background-size: cover;
+}
+.divmid{
+    display: flex;
+    flex-direction: row;
+    height: 76vh;
+    width: 110vh;
+    box-shadow: 2.8px 2.8px 2.2px rgba(0, 0, 0, 0.02),
+                6.7px 6.7px 5.3px rgba(0, 0, 0, 0.028),
+                12.5px 12.5px 10px rgba(0, 0, 0, 0.035),
+                22.3px 22.3px 17.9px rgba(0, 0, 0, 0.042),
+                41.8px 41.8px 33.4px rgba(0, 0, 0, 0.05),
+                100px 100px 80px rgba(0, 0, 0, 0.07);
+    border-radius: 10px;
+}
+.login{
+    display: flex;
+    color: black;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(254, 253, 253);
+    gap: 20px;
+    width: 55vh;
+    height: 69vh;
+    border-radius: 2%;
+    padding: 20px 40px;
+}
+.for{
+    margin-top:0px; 
+    margin-bottom: 0%;
+    padding: 0px 0px;
+}
+.space{
+    display: flex;
+    color: black;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    backdrop-filter: blur(3px);
+    padding: 20px 40px;
+    gap: 10px;
+    text-align: center;
+    border-radius: 2%;
+    width: 55vh;
+    height: 69vh;
+    background-size: cover;
+    z-index: 2;
+}
+.avatar {
+    vertical-align: middle;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+  }
+.input{
+    height:12.5% ;
+    width: 85%;
+    padding: 8px 8px;
+    background-color:rgb(230, 222, 222);
+    color: #050505;
+    border: none;
+    border-radius: 2px;
+}
+.button1{
+    height:6vh;
+    width: 15vw;
+    color: #fbfbfa;
+    background-color:#50C9C3;
+    padding: 5px 5px;
+    border: none;
+    border-radius: 4px;
+}
+.button1:hover{
+    background-color: black;
+    color: #f5f5ed;
+    cursor: pointer;
+}
+.icon{
+    border-radius: 3px;
+    border: none;
+    background-color: transparent;
+}
+.eye{
+    position:absolute;
+    border: none;
+    top:51.1%;
+    right: 30.5%;
+    background: transparent;
+}
+.eye1{
+    position:absolute;
+    border: none;
+    top:43%;
+    right: 54%;
+    background: transparent;
+}
+.switch{
+    background-color: transparent;
+    border: none;
+}
+.hide{
+    display: none;
+}
+.forget{
+    margin-top:  0px;
+    margin-left:160px;
+}
+.avatar {
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.underline{
+    color: #050505;
+}
+.underline:hover{
+    color: rgb(0, 128, 255);
+    text-decoration: underline;
+    cursor: pointer;
+}
+.method{
+    color: #050505;
+}
+.method:hover{
+    text-decoration: underline;
+    color: #2980B9;
+    cursor: pointer;
+}

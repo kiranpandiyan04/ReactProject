@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+}
+.bodyhome{
+   height:300vh;
+   background-color:rgb(255, 255, 255);
+   background-size: cover;
+}
+.navbar{
+    height: 11vh;
+    width:98.7vw;
+    display:flex;
+    background-color: #aaebd4;
+    margin-left: 0px;
+    box-shadow:
+  2.8px 2.8px 2.2px rgba(0, 0, 0, 0.014),
+  6.7px 6.7px 5.3px rgba(0, 0, 0, 0.023),
+  12.5px 12.5px 10px rgba(0, 0, 0, 0.03),
+  22.3px 22.3px 17.9px rgba(0, 0, 0, 0.038),
+  41.8px 41.8px 33.4px rgba(0, 0, 0, 0.048),
+  100px 100px 80px rgba(0, 0, 0, 0.07)
+;
+}
+.pro{
+    margin-top: 27px;
+    margin-left:850px;
+}
+.phar{
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 25px;
+}
+.sale{
+    margin-top: 27px;
+    margin-left: 60px;
+}
+.syn{
+    margin-top: 22px;
+    margin-left: 70px;
+}
+.divm{
+    height: 60vh;
+    width: 98.7vw;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+}
+.div1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    width:50vw;
+    border: none;
+    color: aliceblue;
+    background-image: url('C:\Users\HP\Desktop\React Project\rp1\src\img\p1.jpg');
+}
+.imagediv{
+    background-color: rgba(0, 0, 0, 0.78);
+    height: 60vh;
+    width:50vw;
+}
+.div2{
+    height: 60vh;
+    width: 50vw;
+    border:none;
+    background-image: url('C:\Users\HP\Desktop\React Project\rp1\src\img\p2.jpg');
+    background-size: 50vw 64vh;
+}
+.logo{
+    vertical-align: middle;
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+}
+.setm{
+    display: flex;
+    flex-direction: row;
+}
+.info{
+   height: 40vh;
+   width: 26vw;
+   margin-left: 65px;
+}
+.div3{
+    display: flex;
+    flex-direction: row;
+    height: 70vh;
+    width: 98.7vw;
+    border: none;
+    background-color: rgb(189, 225, 236);
+}
+.info2{
+    width: 50vw;
+}
+.img{
+    width: 50vw;
+    background-image: url('C:\Users\HP\Desktop\React Project\rp1\src\img\p3.jpg');
+    background-size: cover;
+}
+.div4{
+    background-color: rgb(239, 237, 237);
+    margin-top: 150px;
+    display: flex;
+    flex-direction: row;
+    height: 80vh;
+    gap:70px
+}
+.div5{
+    margin-left: 30px;
+    width: 15vw;
+    justify-content: center;
+    text-align: left;
+}
+.login{
+    margin-top: 10px;
+}
